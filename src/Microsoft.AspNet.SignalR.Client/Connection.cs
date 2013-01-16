@@ -22,7 +22,7 @@ namespace Microsoft.AspNet.SignalR.Client
     /// <summary>
     /// Provides client connections for SignalR services.
     /// </summary>
-    [SuppressMessage("Microsoft.Design", "CA1001:TypesThatOwnDisposableFieldsShouldBeDisposable", Justification="_disconnectCts is disposed on disconnect.")]
+    [SuppressMessage("Microsoft.Design", "CA1001:TypesThatOwnDisposableFieldsShouldBeDisposable", Justification = "_disconnectCts is disposed on disconnect.")]
     public class Connection : IConnection
     {
         private static Version _assemblyVersion;
@@ -43,6 +43,17 @@ namespace Microsoft.AspNet.SignalR.Client
 
         // Used to synchronize state changes
         private readonly object _stateLock = new object();
+
+        // 
+        private int _keepAliveTimeoutCount = 2;
+
+        //
+        private double _keepAliveWarnAt = 2.0 / 3.0;
+
+        private readonly HeartBeatMonitor _monitor;
+
+        //
+        public KeepAliveData KeepAliveData { get; set; }
 
         /// <summary>
         /// Occurs when the <see cref="Connection"/> has received data from the server.
@@ -116,6 +127,7 @@ namespace Microsoft.AspNet.SignalR.Client
                 url += "/";
             }
 
+            _monitor = new HeartBeatMonitor();
             Url = url;
             QueryString = queryString;
             _disconnectTimeoutOperation = DisposableAction.Empty;
@@ -154,7 +166,7 @@ namespace Microsoft.AspNet.SignalR.Client
         /// Gets or sets the connection id for the connection.
         /// </summary>
         public string ConnectionId { get; set; }
-        
+
         /// <summary>
         /// Gets or sets the connection token for the connection.
         /// </summary>
@@ -263,8 +275,25 @@ namespace Microsoft.AspNet.SignalR.Client
 
                 ConnectionId = negotiationResponse.ConnectionId;
                 ConnectionToken = negotiationResponse.ConnectionToken;
-
                 _disconnectTimeout = TimeSpan.FromSeconds(negotiationResponse.DisconnectTimeout);
+
+                // If we have a keep alive
+                if (negotiationResponse.KeepAlive != null)
+                {
+                    // Convert to milliseconds
+                    double keepAlive = negotiationResponse.KeepAlive.Value * 1000;
+
+                    KeepAliveData = new KeepAliveData();
+
+                    // Timeout to designate when to force the connection into reconnecting
+                    KeepAliveData.Timeout = TimeSpan.FromMilliseconds((double)(keepAlive * _keepAliveTimeoutCount));
+
+                    // Timeout to designate when to warn the developer that the connection may be dead or is hanging.
+                    KeepAliveData.TimeoutWarning = TimeSpan.FromMilliseconds(KeepAliveData.Timeout.TotalMilliseconds * _keepAliveWarnAt);
+
+                    // Instantiate the frequency in which we check the keep alive.  It must be short in order to not miss/pick up any changes
+                    KeepAliveData.CheckInterval = TimeSpan.FromMilliseconds((KeepAliveData.Timeout.TotalMilliseconds - KeepAliveData.TimeoutWarning.TotalMilliseconds) / 3);
+                }
 
                 var data = OnSending();
                 StartTransport(data).ContinueWith(negotiateTcs);
@@ -304,10 +333,16 @@ namespace Microsoft.AspNet.SignalR.Client
 
         private Task StartTransport(string data)
         {
+            //if (_transport.SupportsKeepAlive && keepAliveData.Activated)
+            //{
+            //    _transport.monitorKeepAlive(this);
+            //}
+
             return _transport.Start(this, data, _disconnectCts.Token)
                              .RunSynchronously(() =>
                              {
                                  ChangeState(ConnectionState.Connecting, ConnectionState.Connected);
+                                 _monitor.Start(this);
                              });
         }
 
@@ -334,12 +369,12 @@ namespace Microsoft.AspNet.SignalR.Client
 
         private static void VerifyProtocolVersion(string versionString)
         {
-            Version version;
+            Version version = new Version();
             if (String.IsNullOrEmpty(versionString) ||
                 !TryParseVersion(versionString, out version) ||
                 !(version.Major == 1 && version.Minor == 2))
             {
-                throw new InvalidOperationException(String.Format(CultureInfo.CurrentCulture, Resources.Error_IncompatibleProtocolVersion));
+                throw new InvalidOperationException(String.Format(CultureInfo.CurrentCulture, Resources.Error_IncompatibleProtocolVersion, "1.1", versionString));
             }
         }
 
@@ -372,8 +407,10 @@ namespace Microsoft.AspNet.SignalR.Client
                     _disconnectTimeoutOperation.Dispose();
                     _disconnectCts.Cancel();
                     _disconnectCts.Dispose();
+                    _monitor.Stop(this);
 
                     State = ConnectionState.Disconnected;
+
 
                     // TODO: Do we want to trigger Closed if we are connecting?
                     if (Closed != null)
@@ -462,6 +499,11 @@ namespace Microsoft.AspNet.SignalR.Client
             if (Reconnected != null)
             {
                 Reconnected();
+            }
+
+            if (KeepAliveData != null)
+            {
+                KeepAliveData.UpdateLastKeepAlive();
             }
         }
 

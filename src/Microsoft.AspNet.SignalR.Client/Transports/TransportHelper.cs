@@ -100,6 +100,12 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
                 throw new ArgumentNullException("connection");
             }
 
+            //update the lastKeepAlive Value
+            if (connection.KeepAliveData != null)
+            {
+                connection.KeepAliveData.UpdateLastKeepAlive();
+                Console.WriteLine("Received Message from the Server : {0}", DateTime.UtcNow.ToLongTimeString());
+            }
             timedOut = false;
             disconnected = false;
 

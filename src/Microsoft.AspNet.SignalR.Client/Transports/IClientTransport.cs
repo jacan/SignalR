@@ -10,6 +10,7 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
     public interface IClientTransport
     {
         string Name { get; }
+        bool SupportsKeepAlive { get; set; }
 
         Task<NegotiationResponse> Negotiate(IConnection connection);       
         Task Start(IConnection connection, string data, CancellationToken disconnectToken);
@@ -17,3 +18,4 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
         void Abort(IConnection connection);
     }
 }
+

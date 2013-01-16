@@ -8,11 +8,13 @@ using System.Threading;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Microsoft.AspNet.SignalR.Client.Http;
+using Microsoft.AspNet.SignalR.Client.Infrastructure;
 
 namespace Microsoft.AspNet.SignalR.Client
 {
     public interface IConnection
     {
+        KeepAliveData KeepAliveData { get; set; }
         string MessageId { get; set; }
         string GroupsToken { get; set; }
         IDictionary<string, object> Items { get; }

@@ -23,6 +23,7 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
         public ServerSentEventsTransport(IHttpClient httpClient)
             : base(httpClient, "serverSentEvents")
         {
+            SupportsKeepAlive = true;
             ReconnectDelay = TimeSpan.FromSeconds(2);
             ConnectionTimeout = TimeSpan.FromSeconds(2);
         }
@@ -36,6 +37,11 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
         /// The time to wait after a connection drops to try reconnecting.
         /// </summary>
         public TimeSpan ReconnectDelay { get; set; }
+
+        /// <summary>
+        /// Property for the Keep alive Property
+        /// </summary>
+        //public bool SupportsKeepAlive { get; set; }
 
         protected override void OnStart(IConnection connection,
                                         string data,
