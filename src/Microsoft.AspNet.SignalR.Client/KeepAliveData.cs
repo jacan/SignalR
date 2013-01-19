@@ -10,17 +10,17 @@ namespace Microsoft.AspNet.SignalR.Client
     /// </summary>
     public class KeepAliveData
     {
-        public DateTime lastKeepAlive { get; set; }
+        public DateTime LastKeepAlive { get; set; }
         public TimeSpan Timeout { get; set; }
         public TimeSpan TimeoutWarning { get; set; }
         public TimeSpan CheckInterval { get; set; }
-        
+
         /// <summary>
-        /// Sets lastKeepAlive to the current time 
+        /// Sets LastKeepAlive to the current time 
         /// </summary>
         public void UpdateLastKeepAlive()
         {
-            lastKeepAlive = DateTime.UtcNow;
+            LastKeepAlive = DateTime.UtcNow;
         }
     }
 }

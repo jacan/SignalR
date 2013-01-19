@@ -266,5 +266,10 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
                 connection.OnReconnected();
             }
         }
+
+        public override void LostConnection(IConnection connection)
+        {
+            
+        }
     }
 }

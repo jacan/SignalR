@@ -138,5 +138,10 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
                 _transport.Abort(connection);
             }
         }
+
+        public void LostConnection(IConnection connection)
+        {
+            _transport.LostConnection(connection);
+        }
     }
 }

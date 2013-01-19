@@ -44,13 +44,10 @@ namespace Microsoft.AspNet.SignalR.Client
         // Used to synchronize state changes
         private readonly object _stateLock = new object();
 
-        // 
-        private int _keepAliveTimeoutCount = 2;
-
         //
         private double _keepAliveWarnAt = 2.0 / 3.0;
 
-        private readonly HeartBeatMonitor _monitor;
+        private HeartBeatMonitor _monitor;
 
         //
         public KeepAliveData KeepAliveData { get; set; }
@@ -127,7 +124,6 @@ namespace Microsoft.AspNet.SignalR.Client
                 url += "/";
             }
 
-            _monitor = new HeartBeatMonitor();
             Url = url;
             QueryString = queryString;
             _disconnectTimeoutOperation = DisposableAction.Empty;
@@ -249,6 +245,8 @@ namespace Microsoft.AspNet.SignalR.Client
         public Task Start(IClientTransport transport)
         {
             _disconnectCts = new SafeCancellationTokenSource();
+            _monitor = new HeartBeatMonitor(this);
+
             if (!ChangeState(ConnectionState.Disconnected, ConnectionState.Connecting))
             {
                 return TaskAsyncHelper.Empty;
@@ -278,15 +276,13 @@ namespace Microsoft.AspNet.SignalR.Client
                 _disconnectTimeout = TimeSpan.FromSeconds(negotiationResponse.DisconnectTimeout);
 
                 // If we have a keep alive
-                if (negotiationResponse.KeepAlive != null)
+                if (negotiationResponse.KeepAliveTimeout != null)
                 {
-                    // Convert to milliseconds
-                    double keepAlive = negotiationResponse.KeepAlive.Value * 1000;
 
                     KeepAliveData = new KeepAliveData();
 
                     // Timeout to designate when to force the connection into reconnecting
-                    KeepAliveData.Timeout = TimeSpan.FromMilliseconds((double)(keepAlive * _keepAliveTimeoutCount));
+                    KeepAliveData.Timeout = TimeSpan.FromSeconds((double)negotiationResponse.KeepAliveTimeout);
 
                     // Timeout to designate when to warn the developer that the connection may be dead or is hanging.
                     KeepAliveData.TimeoutWarning = TimeSpan.FromMilliseconds(KeepAliveData.Timeout.TotalMilliseconds * _keepAliveWarnAt);
@@ -333,16 +329,11 @@ namespace Microsoft.AspNet.SignalR.Client
 
         private Task StartTransport(string data)
         {
-            //if (_transport.SupportsKeepAlive && keepAliveData.Activated)
-            //{
-            //    _transport.monitorKeepAlive(this);
-            //}
-
             return _transport.Start(this, data, _disconnectCts.Token)
                              .RunSynchronously(() =>
                              {
                                  ChangeState(ConnectionState.Connecting, ConnectionState.Connected);
-                                 _monitor.Start(this);
+                                 _monitor.Start();
                              });
         }
 
@@ -407,7 +398,7 @@ namespace Microsoft.AspNet.SignalR.Client
                     _disconnectTimeoutOperation.Dispose();
                     _disconnectCts.Cancel();
                     _disconnectCts.Dispose();
-                    _monitor.Stop(this);
+                    _monitor.Dispose();
 
                     State = ConnectionState.Disconnected;
 

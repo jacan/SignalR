@@ -179,5 +179,10 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
                 Data = data;
             }
         }
+
+        public void LostConnection(IConnection connection)
+        {
+            Abort(connection);
+        }
     }
 }

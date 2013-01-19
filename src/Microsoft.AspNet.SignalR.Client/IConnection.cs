@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Microsoft.AspNet.SignalR.Client.Http;
 using Microsoft.AspNet.SignalR.Client.Infrastructure;
+using Microsoft.AspNet.SignalR.Client.Transports;
 
 namespace Microsoft.AspNet.SignalR.Client
 {
@@ -23,6 +24,7 @@ namespace Microsoft.AspNet.SignalR.Client
         string Url { get; }
         string QueryString { get; }
         ConnectionState State { get; }
+        IClientTransport Transport { get; }
 
         bool ChangeState(ConnectionState oldState, ConnectionState newState);
 

@@ -259,11 +259,11 @@ namespace Microsoft.AspNet.SignalR.Transports
                 {
                     Trace.TraceInformation("KeepAlive(" + metadata.Connection.ConnectionId + ")");
 
-                    metadata.Connection.KeepAlive()
+                    /*metadata.Connection.KeepAlive()
                                        .Catch(ex =>
                                        {
                                            Trace.TraceInformation("Failed to send keep alive: " + ex.GetBaseException());
-                                       });
+                                       });*/
                 }
 
                 MarkConnection(metadata.Connection);

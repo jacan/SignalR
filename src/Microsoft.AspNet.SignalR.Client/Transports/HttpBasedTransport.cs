@@ -130,5 +130,7 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
         {
             return TransportHelper.GetReceiveQueryString(connection, data, _transport);
         }
+
+        public abstract void LostConnection(IConnection connection);
     }
 }

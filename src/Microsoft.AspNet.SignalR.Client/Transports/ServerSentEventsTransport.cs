@@ -15,6 +15,7 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
 {
     public class ServerSentEventsTransport : HttpBasedTransport
     {
+        private EventSourceStreamReader _eventSource;
         public ServerSentEventsTransport()
             : this(new DefaultHttpClient())
         {
@@ -38,11 +39,6 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
         /// </summary>
         public TimeSpan ReconnectDelay { get; set; }
 
-        /// <summary>
-        /// Property for the Keep alive Property
-        /// </summary>
-        //public bool SupportsKeepAlive { get; set; }
-
         protected override void OnStart(IConnection connection,
                                         string data,
                                         CancellationToken disconnectToken,
@@ -62,7 +58,7 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
                 if (!disconnectToken.IsCancellationRequested && connection.EnsureReconnecting())
                 {
                     // Now attempt a reconnect
-                    OpenConnection(connection, data,  disconnectToken, initializeCallback: null, errorCallback: null);
+                    OpenConnection(connection, data, disconnectToken, initializeCallback: null, errorCallback: null);
                 }
             });
         }
@@ -121,17 +117,20 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
                     IResponse response = task.Result;
                     Stream stream = response.GetResponseStream();
 
-                    var eventSource = new EventSourceStreamReader(stream);
+                    _eventSource = new EventSourceStreamReader(stream);
+
                     bool retry = true;
 
+                    //What exactly is happenieng here?
                     var esCancellationRegistration = disconnectToken.SafeRegister(es =>
                     {
                         retry = false;
                         es.Close();
-                    }, eventSource);
+                    }, _eventSource);
 
-                    eventSource.Opened = () =>
+                    _eventSource.Opened = () =>
                     {
+                        //if we are reconnecting - we do not need to worry about the callback being invoked
                         if (!reconnecting)
                         {
                             callbackInvoker.Invoke(initializeCallback);
@@ -143,7 +142,7 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
                         }
                     };
 
-                    eventSource.Message = sseEvent =>
+                    _eventSource.Message = sseEvent =>
                     {
                         if (sseEvent.EventType == EventType.Data)
                         {
@@ -164,7 +163,7 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
                         }
                     };
 
-                    eventSource.Closed = exception =>
+                    _eventSource.Closed = exception =>
                     {
                         bool isRequestAborted = false;
 
@@ -188,14 +187,14 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
                     };
 
                     // See http://msdn.microsoft.com/en-us/library/system.net.httpwebresponse.close.aspx
-                    eventSource.Disabled = () =>
+                    _eventSource.Disabled = () =>
                     {
                         requestDisposer.Dispose();
                         esCancellationRegistration.Dispose();
                         response.Close();
                     };
 
-                    eventSource.Start();
+                    _eventSource.Start();
                 }
             });
 
@@ -234,6 +233,14 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
                     connection,
                     errorCallback);
                 });
+            }
+        }
+
+        public override void LostConnection(IConnection connection)
+        {
+            if (_eventSource != null)
+            {
+                _eventSource.Close();
             }
         }
     }

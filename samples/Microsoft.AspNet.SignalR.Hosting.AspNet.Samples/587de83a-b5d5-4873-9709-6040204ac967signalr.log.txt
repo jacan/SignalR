@@ -1,0 +1,909 @@
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/connect?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0).
+    ThreadId=6
+    DateTime=2013-01-19T00:15:06.7441308Z
+SignalR.MessageBus Information: 0 : Creating a worker, allocated=1, busy=0
+    ThreadId=6
+    DateTime=2013-01-19T00:15:06.7631480Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=10
+    DateTime=2013-01-19T00:15:06.7661479Z
+SignalR.MessageBus Information: 0 : Creating a worker, allocated=2, busy=1
+    ThreadId=6
+    DateTime=2013-01-19T00:15:06.7791586Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:15:06.7801594Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:15:06.8549960Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:15:16.7173742Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:15:26.7321686Z
+SignalR.Transports.WebSocketTransport Information: 0 : OnDisconnect(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=6
+    DateTime=2013-01-19T00:15:29.0747465Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 95a6927d-63e5-4705-8bdc-ddd883889531
+    ThreadId=6
+    DateTime=2013-01-19T00:15:29.0757470Z
+SignalR.Transports.WebSocketTransport Information: 0 : End(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=6
+    DateTime=2013-01-19T00:15:29.0757470Z
+SignalR.Transports.WebSocketTransport Information: 0 : Cancel(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:15:29.0777490Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=6
+    DateTime=2013-01-19T00:15:29.0787498Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:15:29.0797503Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:15:29.0807511Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:15:29.0807511Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:15:29.0817522Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:15:29.0827528Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0&messageId=B%2C1|C%2C1|D%2C0|E%2C0&groupsToken=pAyNLA_i-d_8ln5Xnd9CARt3nNMxMnuAcRDQeOmy6ycg8GZ0-2IRBgGl5sNDTQ1L9H-I5DT4jnfvXQjUY8h5a7zgix1J-ovcA1h21rYgIbB9am_jJp2jRz8Si4hh6KWvrHy8HIH7WtJmvbCZPBhC1g2).
+    ThreadId=6
+    DateTime=2013-01-19T00:15:29.1428058Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=6
+    DateTime=2013-01-19T00:15:29.1448049Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:15:29.1448049Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=1
+    ThreadId=6
+    DateTime=2013-01-19T00:15:29.1448049Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=10
+    DateTime=2013-01-19T00:15:29.1448049Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=6
+    DateTime=2013-01-19T00:15:29.1468045Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:15:29.1468045Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=6
+    DateTime=2013-01-19T00:15:36.7481512Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:15:46.7482239Z
+SignalR.Transports.WebSocketTransport Information: 0 : OnDisconnect(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:15:51.3953592Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 95a6927d-63e5-4705-8bdc-ddd883889531
+    ThreadId=12
+    DateTime=2013-01-19T00:15:51.3953592Z
+SignalR.Transports.WebSocketTransport Information: 0 : End(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:15:51.3953592Z
+SignalR.Transports.WebSocketTransport Information: 0 : Cancel(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:15:51.3953592Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:15:51.3953592Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:15:51.3963600Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=12
+    DateTime=2013-01-19T00:15:51.3963600Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:15:51.3963600Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=8
+    DateTime=2013-01-19T00:15:51.3973608Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=8
+    DateTime=2013-01-19T00:15:51.3973608Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0&messageId=B%2C3|C%2C1|D%2C0|E%2C0&groupsToken=cQsfC_CrhzFkSlufmNsjo7YN9fiaGFxbA736f8RgJX7Uex-knvZEjaRRjLGPDjK7wzD4IqMbmlEDq3_Qy7VBt8A3Aza1yFQNZURg5Xq0Sqp7-pjyCvYVXVIhWMXbn9rKi3CD_-rNwVdUz_cWzvy_JA2).
+    ThreadId=15
+    DateTime=2013-01-19T00:15:51.4801310Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=15
+    DateTime=2013-01-19T00:15:51.4811307Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:15:51.4811307Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=1
+    ThreadId=15
+    DateTime=2013-01-19T00:15:51.4811307Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=11
+    DateTime=2013-01-19T00:15:51.4811307Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:15:51.4831321Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:15:56.7625458Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=8
+    DateTime=2013-01-19T00:16:06.7625108Z
+SignalR.Transports.WebSocketTransport Information: 0 : OnDisconnect(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:16:13.7216463Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 95a6927d-63e5-4705-8bdc-ddd883889531
+    ThreadId=12
+    DateTime=2013-01-19T00:16:13.7216463Z
+SignalR.Transports.WebSocketTransport Information: 0 : End(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:16:13.7226483Z
+SignalR.Transports.WebSocketTransport Information: 0 : Cancel(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=8
+    DateTime=2013-01-19T00:16:13.7226483Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=8
+    DateTime=2013-01-19T00:16:13.7226483Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=8
+    DateTime=2013-01-19T00:16:13.7226483Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=12
+    DateTime=2013-01-19T00:16:13.7236497Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:16:13.7236497Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:16:13.7236497Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:16:13.7236497Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0&messageId=B%2C5|C%2C1|D%2C0|E%2C0&groupsToken=BUP2l0uWKJAH_rfM8i3XPsr46ihsrUgg1R1Zoj9Aahji8wfD62Ud45CyPliqwUfFEe22uL0Tj5_t6b5BWVTNTSnCaGxG_GIRqRpEGHmjaYrPkVPbuxe4fBJzoCQ2Us6Naim3gp_zhSvaKXB7Xyp9sw2).
+    ThreadId=13
+    DateTime=2013-01-19T00:16:13.7546719Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=13
+    DateTime=2013-01-19T00:16:13.7546719Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:16:13.7546719Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=1
+    ThreadId=13
+    DateTime=2013-01-19T00:16:13.7546719Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=11
+    DateTime=2013-01-19T00:16:13.7556730Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:16:13.7566747Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:16:16.7803684Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:16:26.7809960Z
+SignalR.Transports.WebSocketTransport Information: 0 : OnDisconnect(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=14
+    DateTime=2013-01-19T00:16:33.7969708Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 95a6927d-63e5-4705-8bdc-ddd883889531
+    ThreadId=14
+    DateTime=2013-01-19T00:16:33.7979754Z
+SignalR.Transports.WebSocketTransport Information: 0 : End(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=14
+    DateTime=2013-01-19T00:16:33.7979754Z
+SignalR.Transports.WebSocketTransport Information: 0 : Cancel(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=8
+    DateTime=2013-01-19T00:16:33.7979754Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=8
+    DateTime=2013-01-19T00:16:33.7979754Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=8
+    DateTime=2013-01-19T00:16:33.7979754Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=14
+    DateTime=2013-01-19T00:16:33.7989859Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:16:33.7989859Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:16:33.7989859Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:16:33.7989859Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0&messageId=B%2C7|C%2C1|D%2C0|E%2C0&groupsToken=WPcD6yV9sm3XD6TeFafis6xLYOS88dEscaoNhjjqqAcPPe4Kgxm5kzi__uf4ASSTA1ZPvgVDIl2daJOvn1s6dVhs0HpV_OWdoFBcG3IGbPEJwpjM64-slqSlVNoyHs20WosWhRZYvzdBijjiipKlRw2).
+    ThreadId=12
+    DateTime=2013-01-19T00:16:33.8239926Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=12
+    DateTime=2013-01-19T00:16:33.8239926Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:16:33.8239926Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=1
+    ThreadId=12
+    DateTime=2013-01-19T00:16:33.8249937Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=11
+    DateTime=2013-01-19T00:16:33.8249937Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:16:33.8260077Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:16:36.7941854Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=14
+    DateTime=2013-01-19T00:16:46.7963889Z
+SignalR.Transports.WebSocketTransport Information: 0 : OnDisconnect(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=8
+    DateTime=2013-01-19T00:16:53.8939221Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 95a6927d-63e5-4705-8bdc-ddd883889531
+    ThreadId=8
+    DateTime=2013-01-19T00:16:53.8949232Z
+SignalR.Transports.WebSocketTransport Information: 0 : End(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=8
+    DateTime=2013-01-19T00:16:53.8949232Z
+SignalR.Transports.WebSocketTransport Information: 0 : Cancel(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:16:53.8949232Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:16:53.8949232Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:16:53.8959269Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=8
+    DateTime=2013-01-19T00:16:53.8959269Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:16:53.8959269Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:16:53.8959269Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:16:53.8969249Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0&messageId=B%2C9|C%2C1|D%2C0|E%2C0&groupsToken=Dr5fzOBXkLrK_o6Z8xyrlZHPI93z9T89q-geomkBTA0pxSK8c_GQKREOdIpTK--8RMnkVFp4QQG7rFW1kE7wBSG7DxYlnRzE-ngKnZ-BJTHp1G1TV5Q7a9K8qG_z8mdDeuPWEvip8mlU4DGaTIg6XQ2).
+    ThreadId=14
+    DateTime=2013-01-19T00:16:53.9269491Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=14
+    DateTime=2013-01-19T00:16:53.9269491Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:16:53.9269491Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=1
+    ThreadId=14
+    DateTime=2013-01-19T00:16:53.9269491Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=11
+    DateTime=2013-01-19T00:16:53.9279502Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:16:53.9289513Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:16:56.8099800Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=17
+    DateTime=2013-01-19T00:17:06.8261514Z
+SignalR.Transports.WebSocketTransport Information: 0 : OnDisconnect(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:17:13.9730611Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 95a6927d-63e5-4705-8bdc-ddd883889531
+    ThreadId=12
+    DateTime=2013-01-19T00:17:13.9740620Z
+SignalR.Transports.WebSocketTransport Information: 0 : End(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:17:13.9740620Z
+SignalR.Transports.WebSocketTransport Information: 0 : Cancel(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=17
+    DateTime=2013-01-19T00:17:13.9740620Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=12
+    DateTime=2013-01-19T00:17:13.9750656Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:17:13.9750656Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=8
+    DateTime=2013-01-19T00:17:13.9750656Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=8
+    DateTime=2013-01-19T00:17:13.9750656Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=17
+    DateTime=2013-01-19T00:17:13.9770641Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=17
+    DateTime=2013-01-19T00:17:13.9770641Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0&messageId=B%2CB|C%2C1|D%2C0|E%2C0&groupsToken=uWcMxW4PDcPgG9JEagBF3eDGiTyH8FkeEDOPzv3mjuhHLyn8viN3ufD3QUNWXjndoh2jBzVme8ujzwrjtZg_Sag8GGRc_v77YeOS1pa790_217TT-SGUhlU-pzTipDfSBp_uyAu2uAqAJ3-7ekiuMw2).
+    ThreadId=8
+    DateTime=2013-01-19T00:17:14.0091117Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=8
+    DateTime=2013-01-19T00:17:14.0091117Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:17:14.0091117Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=1
+    ThreadId=8
+    DateTime=2013-01-19T00:17:14.0101091Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=11
+    DateTime=2013-01-19T00:17:14.0101091Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:17:14.0111136Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:17:16.8271984Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:17:26.8436962Z
+SignalR.Transports.WebSocketTransport Information: 0 : OnDisconnect(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:17:34.0502644Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 95a6927d-63e5-4705-8bdc-ddd883889531
+    ThreadId=12
+    DateTime=2013-01-19T00:17:34.0502644Z
+SignalR.Transports.WebSocketTransport Information: 0 : End(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:17:34.0512644Z
+SignalR.Transports.WebSocketTransport Information: 0 : Cancel(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:17:34.0512644Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:17:34.0512644Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:17:34.0512644Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=12
+    DateTime=2013-01-19T00:17:34.0522652Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:17:34.0522652Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=8
+    DateTime=2013-01-19T00:17:34.0522652Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=8
+    DateTime=2013-01-19T00:17:34.0522652Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0&messageId=B%2CD|C%2C1|D%2C0|E%2C0&groupsToken=MtbMmrBJwUE2-wJfriICna-1U39cINjfs6DtUO60ihl2_U8MyL88wr6VcmxpdwcctSVxRNaOcOcpEknk2ECAnhseIDskof4zFAtucKeo0_5QXchH3NsvnTTwYW3M4ahqJ5h7Zd3SDr9BPLKHmpBIPw2).
+    ThreadId=15
+    DateTime=2013-01-19T00:17:34.0782859Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=15
+    DateTime=2013-01-19T00:17:34.0792875Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:17:34.0792875Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=1
+    ThreadId=15
+    DateTime=2013-01-19T00:17:34.0792875Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=11
+    DateTime=2013-01-19T00:17:34.0792875Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:17:34.0812903Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:17:36.8439451Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:17:46.8451686Z
+SignalR.Transports.WebSocketTransport Information: 0 : OnDisconnect(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:17:54.1302443Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 95a6927d-63e5-4705-8bdc-ddd883889531
+    ThreadId=13
+    DateTime=2013-01-19T00:17:54.1302443Z
+SignalR.Transports.WebSocketTransport Information: 0 : End(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:17:54.1302443Z
+SignalR.Transports.WebSocketTransport Information: 0 : Cancel(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=17
+    DateTime=2013-01-19T00:17:54.1302443Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=17
+    DateTime=2013-01-19T00:17:54.1302443Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=17
+    DateTime=2013-01-19T00:17:54.1312451Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=13
+    DateTime=2013-01-19T00:17:54.1312451Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:17:54.1312451Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:17:54.1322482Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:17:54.1322482Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0&messageId=B%2CF|C%2C1|D%2C0|E%2C0&groupsToken=jKjY_nNa7DrU_Me4hvY5T38M-2wSi0FmnbYzP_6sSxQy7c5LRI9-JtSC8D3jEWDbbpHRQpgEy7XGEDAlJ_1z2-XswDRJTsl8nTQZ-0QBygWHIpTDtkX79VrfGXp07U7YxKSJtOmRxCG5GffW1OLyeg2).
+    ThreadId=13
+    DateTime=2013-01-19T00:17:54.1592703Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=13
+    DateTime=2013-01-19T00:17:54.1592703Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:17:54.1592703Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=1
+    ThreadId=13
+    DateTime=2013-01-19T00:17:54.1602685Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=11
+    DateTime=2013-01-19T00:17:54.1602685Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:17:54.1612693Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=14
+    DateTime=2013-01-19T00:17:56.8589183Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=14
+    DateTime=2013-01-19T00:18:06.8749402Z
+SignalR.Transports.WebSocketTransport Information: 0 : OnDisconnect(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=17
+    DateTime=2013-01-19T00:18:14.2095390Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 95a6927d-63e5-4705-8bdc-ddd883889531
+    ThreadId=17
+    DateTime=2013-01-19T00:18:14.2095390Z
+SignalR.Transports.WebSocketTransport Information: 0 : End(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=17
+    DateTime=2013-01-19T00:18:14.2095390Z
+SignalR.Transports.WebSocketTransport Information: 0 : Cancel(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:18:14.2095390Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:18:14.2105401Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:18:14.2105401Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=17
+    DateTime=2013-01-19T00:18:14.2105401Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:18:14.2105401Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:18:14.2115403Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:18:14.2115403Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0&messageId=B%2C11|C%2C1|D%2C0|E%2C0&groupsToken=MjIk1z0DxQXnUYSQQRD_If7C6EBIrTnnE3-z7oo8jMRdZ3Fb_NmlB2VtDhjI2OEa-ZyM2bnS3mZUwTm3X4dy9mohJIC1UbtUl_EIdA-HjcYm5P-4axBKgsmCdUth4M5qPxlVboWUSWEQvmdwP5ntWQ2).
+    ThreadId=13
+    DateTime=2013-01-19T00:18:14.2405672Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=13
+    DateTime=2013-01-19T00:18:14.2405672Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:18:14.2405672Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=1
+    ThreadId=13
+    DateTime=2013-01-19T00:18:14.2415689Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=11
+    DateTime=2013-01-19T00:18:14.2415689Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:18:14.2425691Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:18:16.8753440Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=14
+    DateTime=2013-01-19T00:18:26.8909105Z
+SignalR.Transports.WebSocketTransport Information: 0 : OnDisconnect(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:18:34.3013890Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 95a6927d-63e5-4705-8bdc-ddd883889531
+    ThreadId=15
+    DateTime=2013-01-19T00:18:34.3023892Z
+SignalR.Transports.WebSocketTransport Information: 0 : End(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:18:34.3023892Z
+SignalR.Transports.WebSocketTransport Information: 0 : Cancel(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=14
+    DateTime=2013-01-19T00:18:34.3023892Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=15
+    DateTime=2013-01-19T00:18:34.3023892Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:18:34.3033929Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=18
+    DateTime=2013-01-19T00:18:34.3033929Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=18
+    DateTime=2013-01-19T00:18:34.3033929Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=14
+    DateTime=2013-01-19T00:18:34.3053934Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=14
+    DateTime=2013-01-19T00:18:34.3053934Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0&messageId=B%2C13|C%2C1|D%2C0|E%2C0&groupsToken=z5yho-iGTE0FBlEXIp4zolBxnbloS-AJN8_O-XxRmC-l2S0-h71YCsO7RgvizpmNBVrAcIogFQJtk0iTwE7FyGsAIk7nOQ-E5Blh8-34cmGgxcagEt65d6e5Se3PcBH4EEZq5aJZ2C8_RfZwsDjCbw2).
+    ThreadId=12
+    DateTime=2013-01-19T00:18:34.3374201Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=12
+    DateTime=2013-01-19T00:18:34.3374201Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:18:34.3374201Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=1
+    ThreadId=12
+    DateTime=2013-01-19T00:18:34.3384189Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=11
+    DateTime=2013-01-19T00:18:34.3384189Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:18:34.3394223Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=18
+    DateTime=2013-01-19T00:18:36.9061643Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=14
+    DateTime=2013-01-19T00:18:46.9222327Z
+SignalR.Transports.WebSocketTransport Information: 0 : OnDisconnect(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=18
+    DateTime=2013-01-19T00:18:54.3788317Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 95a6927d-63e5-4705-8bdc-ddd883889531
+    ThreadId=18
+    DateTime=2013-01-19T00:18:54.3798325Z
+SignalR.Transports.WebSocketTransport Information: 0 : End(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=18
+    DateTime=2013-01-19T00:18:54.3798325Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=18
+    DateTime=2013-01-19T00:18:54.3798325Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:18:54.3798325Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:18:54.3808336Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:18:54.3808336Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:18:54.3808336Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:18:54.3818339Z
+SignalR.Transports.WebSocketTransport Information: 0 : Cancel(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=20
+    DateTime=2013-01-19T00:18:54.3828347Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0&messageId=B%2C15|C%2C1|D%2C0|E%2C0&groupsToken=HT0Kn2OSmBV220hov2QuvK2KGF7Z4g8GMRKMoXPFF5mmjpaN5Q295OZMakpAU2k7e7P_oI9PVwq5SBYhb0bEHrWIkdUIpaVBXBbhl3JWQrYCVyD60SiGxGGIGCEwE1s0uR7Uqa45sFH2qLLIn7MYiA2).
+    ThreadId=17
+    DateTime=2013-01-19T00:18:54.4138601Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=17
+    DateTime=2013-01-19T00:18:54.4138601Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:18:54.4148640Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=1
+    ThreadId=17
+    DateTime=2013-01-19T00:18:54.4148640Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=11
+    DateTime=2013-01-19T00:18:54.4148640Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:18:54.4168631Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=20
+    DateTime=2013-01-19T00:18:56.9366294Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=18
+    DateTime=2013-01-19T00:19:06.9382458Z
+SignalR.Transports.WebSocketTransport Information: 0 : OnDisconnect(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:19:14.4585282Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 95a6927d-63e5-4705-8bdc-ddd883889531
+    ThreadId=15
+    DateTime=2013-01-19T00:19:14.4585282Z
+SignalR.Transports.WebSocketTransport Information: 0 : End(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:19:14.4585282Z
+SignalR.Transports.WebSocketTransport Information: 0 : Cancel(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=23
+    DateTime=2013-01-19T00:19:14.4585282Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=15
+    DateTime=2013-01-19T00:19:14.4595284Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:19:14.4595284Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:19:14.4595284Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=12
+    DateTime=2013-01-19T00:19:14.4595284Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=23
+    DateTime=2013-01-19T00:19:14.4615301Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=23
+    DateTime=2013-01-19T00:19:14.4615301Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0&messageId=B%2C17|C%2C1|D%2C0|E%2C0&groupsToken=pfZFhHrje5P4bhSJ7mW2XoJKyhBZz1AlDxgCWot9wo_W7kzh-FHF0gizMC9GBagBMefp_YU4kst5laRcnxlOO-Ls3L7LkIFUAP3aST7nOR60mbDhxtp0n5OV-3Xa9WeZ8QAD44nP_2kfRVla8qPVDQ2).
+    ThreadId=17
+    DateTime=2013-01-19T00:19:14.4925591Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=17
+    DateTime=2013-01-19T00:19:14.4925591Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:19:14.4925591Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=1
+    ThreadId=17
+    DateTime=2013-01-19T00:19:14.4935605Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=11
+    DateTime=2013-01-19T00:19:14.4935605Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:19:14.4945633Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=23
+    DateTime=2013-01-19T00:19:16.9696746Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=24
+    DateTime=2013-01-19T00:19:26.9854294Z
+SignalR.Transports.WebSocketTransport Information: 0 : OnDisconnect(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=17
+    DateTime=2013-01-19T00:19:34.5505906Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 95a6927d-63e5-4705-8bdc-ddd883889531
+    ThreadId=17
+    DateTime=2013-01-19T00:19:34.5505906Z
+SignalR.Transports.WebSocketTransport Information: 0 : End(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=17
+    DateTime=2013-01-19T00:19:34.5515925Z
+SignalR.Transports.WebSocketTransport Information: 0 : Cancel(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=23
+    DateTime=2013-01-19T00:19:34.5515925Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=23
+    DateTime=2013-01-19T00:19:34.5515925Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=23
+    DateTime=2013-01-19T00:19:34.5515925Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=17
+    DateTime=2013-01-19T00:19:34.5525934Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:19:34.5525934Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:19:34.5525934Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:19:34.5525934Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0&messageId=B%2C19|C%2C1|D%2C0|E%2C0&groupsToken=7gA85zpI9tfNyl99453izoaGHYXr8a2mr4_Foc0BxYqUTFDlYd024AqXGY3neIbOiYDiHfwaCPb6gKQeZ38u3XOg3dmbxbWLR_s1VzbTvBMVw4_uhrDZSZi8CTzaBkpRg7PwwMEOkiQlLP5Y5C10ow2).
+    ThreadId=12
+    DateTime=2013-01-19T00:19:34.5796152Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=12
+    DateTime=2013-01-19T00:19:34.5806160Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:19:34.5806160Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=1
+    ThreadId=12
+    DateTime=2013-01-19T00:19:34.5806160Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=11
+    DateTime=2013-01-19T00:19:34.5806160Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:19:34.5826159Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:19:36.9993476Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=25
+    DateTime=2013-01-19T00:19:47.0010684Z
+SignalR.Transports.WebSocketTransport Information: 0 : OnDisconnect(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=14
+    DateTime=2013-01-19T00:19:54.6448522Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 95a6927d-63e5-4705-8bdc-ddd883889531
+    ThreadId=14
+    DateTime=2013-01-19T00:19:54.6448522Z
+SignalR.Transports.WebSocketTransport Information: 0 : End(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=14
+    DateTime=2013-01-19T00:19:54.6448522Z
+SignalR.Transports.WebSocketTransport Information: 0 : Cancel(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=25
+    DateTime=2013-01-19T00:19:54.6448522Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=25
+    DateTime=2013-01-19T00:19:54.6458490Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=25
+    DateTime=2013-01-19T00:19:54.6458490Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=14
+    DateTime=2013-01-19T00:19:54.6458490Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:19:54.6458490Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=23
+    DateTime=2013-01-19T00:19:54.6458490Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=23
+    DateTime=2013-01-19T00:19:54.6458490Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0&messageId=B%2C1B|C%2C1|D%2C0|E%2C0&groupsToken=FEuuCQWc6uNBjGxftJjhLoQkiWcYP9yNj6tQi-jOmR-HHPQgrSwpd41jXUB7iIPryVMPncOCzlheY7wBFQbsY2UnLGRdvL_2OujMQ9tTAEGhJjUzVtgWynGUkuA-A1K9ojStBNOJc9JT-utaiJnOaA2).
+    ThreadId=13
+    DateTime=2013-01-19T00:19:54.6668634Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=13
+    DateTime=2013-01-19T00:19:54.6678628Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:19:54.6678628Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=1
+    ThreadId=13
+    DateTime=2013-01-19T00:19:54.6678628Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=11
+    DateTime=2013-01-19T00:19:54.6678628Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:19:54.6688667Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=25
+    DateTime=2013-01-19T00:19:57.0031667Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=15
+    DateTime=2013-01-19T00:20:07.0171034Z
+SignalR.Transports.WebSocketTransport Information: 0 : OnDisconnect(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=17
+    DateTime=2013-01-19T00:20:14.7234062Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 95a6927d-63e5-4705-8bdc-ddd883889531
+    ThreadId=17
+    DateTime=2013-01-19T00:20:14.7234062Z
+SignalR.Transports.WebSocketTransport Information: 0 : End(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=17
+    DateTime=2013-01-19T00:20:14.7244098Z
+SignalR.Transports.WebSocketTransport Information: 0 : Cancel(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=24
+    DateTime=2013-01-19T00:20:14.7244098Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=17
+    DateTime=2013-01-19T00:20:14.7244098Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:20:14.7244098Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=20
+    DateTime=2013-01-19T00:20:14.7254098Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=20
+    DateTime=2013-01-19T00:20:14.7254098Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=24
+    DateTime=2013-01-19T00:20:14.7264083Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=24
+    DateTime=2013-01-19T00:20:14.7274134Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0&messageId=B%2C1D|C%2C1|D%2C0|E%2C0&groupsToken=COskx-NVrKq26kbs1Nk5nOMlIZDDtpJuQb8ymkv1ehR1mIa5w2mZtuwIqb0GXqS6iCi9Y2urveeFFOlB6l1RyCt138LzL7C4cg6WZDLLEFDvw2EsSIe6XtigTVd6AIVfiK0Dh569zekHgScS-K3eUA2).
+    ThreadId=17
+    DateTime=2013-01-19T00:20:14.7524316Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=17
+    DateTime=2013-01-19T00:20:14.7524316Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:20:14.7534307Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=1
+    ThreadId=17
+    DateTime=2013-01-19T00:20:14.7534307Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=11
+    DateTime=2013-01-19T00:20:14.7534307Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:20:14.7554323Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=25
+    DateTime=2013-01-19T00:20:17.0311582Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=24
+    DateTime=2013-01-19T00:20:27.0471889Z
+SignalR.Transports.WebSocketTransport Information: 0 : OnDisconnect(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=22
+    DateTime=2013-01-19T00:20:34.8024134Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Removing connection 95a6927d-63e5-4705-8bdc-ddd883889531
+    ThreadId=22
+    DateTime=2013-01-19T00:20:34.8034145Z
+SignalR.Transports.WebSocketTransport Information: 0 : End(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=22
+    DateTime=2013-01-19T00:20:34.8034145Z
+SignalR.Transports.WebSocketTransport Information: 0 : Cancel(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=23
+    DateTime=2013-01-19T00:20:34.8034145Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=23
+    DateTime=2013-01-19T00:20:34.8034145Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=23
+    DateTime=2013-01-19T00:20:34.8044162Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=22
+    DateTime=2013-01-19T00:20:34.8044162Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=11
+    DateTime=2013-01-19T00:20:34.8044162Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=19
+    DateTime=2013-01-19T00:20:34.8044162Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=19
+    DateTime=2013-01-19T00:20:34.8054136Z
+SignalR.Transports.TransportHeartBeat Information: 0 : Connection is New=(http://localhost:40476/raw-connection/?transport=webSockets&connectionToken=GKQbnSxpcGFznyRyM-UeCk7m0JBHD0Ku4kWIAwnHYu7w42Lvaer-b3hs5sLoZBq9lqtyvgnvUl3O9ct-IAAPXdGWmKa1WerwjENyM__3uP_JTDYhIX-KHwGMjkaf5CdF0&messageId=B%2C1F|C%2C1|D%2C0|E%2C0&groupsToken=eg1QynIHoYtNJDEanBa2HfaPkQWGxr3LJt4fMH1BA4mKHsRuRLojVQTggfEkEk6HeCYKh8qse2PMmpjK3Z58B__qMvbzFhgit8XzmpXvJiKnYcjnmJ-HTs4d4WjE9fLDm0fgUAzz0HCNhvRTgnAVzA2).
+    ThreadId=24
+    DateTime=2013-01-19T00:20:34.8404437Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=0
+    ThreadId=24
+    DateTime=2013-01-19T00:20:34.8404437Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:20:34.8404437Z
+SignalR.MessageBus Information: 0 : No need to add a worker because all allocated workers are not busy, allocated=2, busy=1
+    ThreadId=24
+    DateTime=2013-01-19T00:20:34.8404437Z
+SignalR.MessageBus Information: 0 : Work(4aeed01b-1f71-40db-8c27-4f0c98b3c2fe)
+    ThreadId=11
+    DateTime=2013-01-19T00:20:34.8414425Z
+SignalR.MessageBus Information: 0 : Work(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=10
+    DateTime=2013-01-19T00:20:34.8424442Z
+SignalR.Transports.TransportHeartBeat Information: 0 : KeepAlive(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=23
+    DateTime=2013-01-19T00:20:37.0488555Z
+SignalR.Transports.TransportHeartBeat Information: 0 : OnConnectionEnded(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:20:37.3351958Z
+SignalR.Transports.WebSocketTransport Information: 0 : ReleaseRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:20:37.3351958Z
+SignalR.Transports.WebSocketTransport Information: 0 : DrainWrites(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:20:37.3351958Z
+SignalR.Transports.WebSocketTransport Information: 0 : EndRequest(95a6927d-63e5-4705-8bdc-ddd883889531)
+    ThreadId=13
+    DateTime=2013-01-19T00:20:37.3351958Z
+SignalR.Transports.TransportHeartBeat Information: 0 : 95a6927d-63e5-4705-8bdc-ddd883889531 is dead
+    ThreadId=22
+    DateTime=2013-01-19T00:20:42.0498595Z
+SignalR.Transports.TransportHeartBeat Information: 0 : 95a6927d-63e5-4705-8bdc-ddd883889531 is dead
+    ThreadId=25
+    DateTime=2013-01-19T00:20:47.0631544Z
+SignalR.Transports.TransportHeartBeat Information: 0 : 95a6927d-63e5-4705-8bdc-ddd883889531 is dead
+    ThreadId=22
+    DateTime=2013-01-19T00:20:52.0631490Z

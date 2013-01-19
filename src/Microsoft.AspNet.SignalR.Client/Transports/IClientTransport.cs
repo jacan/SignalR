@@ -16,6 +16,8 @@ namespace Microsoft.AspNet.SignalR.Client.Transports
         Task Start(IConnection connection, string data, CancellationToken disconnectToken);
         Task Send(IConnection connection, string data);
         void Abort(IConnection connection);
+
+        void LostConnection(IConnection connection);
     }
 }
 

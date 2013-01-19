@@ -3,6 +3,7 @@ using Microsoft.AspNet.SignalR.Client.Hubs;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace Microsoft.AspNet.SignalR.Client.Samples
 {
@@ -17,6 +18,8 @@ namespace Microsoft.AspNet.SignalR.Client.Samples
             // var hubConnection = new HubConnection("http://localhost:40476/");
 
             // RunDemoHub(hubConnection);
+            Debug.Listeners.Add(new ConsoleTraceListener());
+            Debug.AutoFlush = true;
 
             RunStreamingSample();
 
@@ -59,7 +62,8 @@ namespace Microsoft.AspNet.SignalR.Client.Samples
 
         private static void RunStreamingSample()
         {
-            var connection = new Connection("http://localhost:40476/raw-connection");
+            //var connection = new Connection("http://localhost:40476/raw-connection");
+            var connection = new Connection("http://localhost/Microsoft.AspNet.SignalR.Hosting.AspNet.Samples/raw-connection");
 
             connection.Received += data =>
             {
